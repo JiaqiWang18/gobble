@@ -27,7 +27,8 @@ const Carousel: FC = () => {
 
   return (
     <div onClick={() => dispatch(increment())}>
-      <img src={curImg} className="img-fluid" alt="..." />
+      <img src={curImg} alt="..." />
+      {imgIndex === -1 && <h2 className="yellow-text">CLICK ME!!!</h2>}
     </div>
   );
 };
