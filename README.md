@@ -2,7 +2,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+### `heroku container:push web -a gobble-gobble-gobble-gobble`
+Builds and pushes container to heroku container registry
+
+### `heroku container:release web -a gobble-gobble-gobble-gobble`
+Deploy the pushed container
 
 ### `npm start`
 
