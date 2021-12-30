@@ -15,10 +15,9 @@ export const carouselSlice = createSlice({
   initialState,
   reducers: {
     increment: (state) => {
-      if (state.currentImageIndex > state.numImages) {
+      state.currentImageIndex++;
+      if (state.currentImageIndex >= state.numImages) {
         state.currentImageIndex = 0;
-      } else {
-        state.currentImageIndex++;
       }
     },
   },
