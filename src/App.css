@@ -1,0 +1,13 @@
+.cornucop {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 15%;
+}
+
+.leaves {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 15%;
+}
